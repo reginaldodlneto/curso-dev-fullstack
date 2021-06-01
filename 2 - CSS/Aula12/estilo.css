@@ -1,0 +1,97 @@
+body{
+
+    background: #dfdfdf; /* Cor do fundo */
+    font-family: 'Raleway', sans-serif; /* Estilo da fonte */
+    color: rgb(34, 34, 34); /* Cor da letra */
+    margin:0; /* Margem */
+
+}
+
+.container{
+    width: 900px; /* Largura da caixa */
+    margin: 0 auto;
+}
+
+.profile{
+    text-align: center; /* Alinhamento do texto */
+}
+
+.foto-principal{
+    width: 200px;
+    border: 2px solid #FFFFFF; /* shorthand (Largura Estilo Cor) */
+    border-radius: 50%; /* Arredondamento das bordas */
+    /*
+    border-width: 5px
+    border-color: black
+    border-style: solid
+    Servem igual ao usado acima
+    */
+
+    margin: 30px 30px 0 30px; /* Margem (Topo; Direita; Baixo; Esquerda) */
+    /*
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 500px;
+    */
+    
+    /* padding: 10px; Espaçamento interno, dentro da foto */
+
+    box-shadow: 0px 0px 10px #959595; /* Sombra (Vertical; Horizontal; Sombreamento; Cor) */
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 0;
+    letter-spacing: -2px; /* Espaçamento entre as letras */
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 35px;
+}  
+
+h2{
+    margin-top: 0;
+    font-style: italic;
+    color: rgb(113 110 110);
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+
+h4{
+    margin-bottom: 5px;
+}
+
+h5{
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: 100;
+    font-style: italic;
+}
+
+p{
+    line-height: 25px;
+    margin-top: 0;
+}
+
+.social-icons{
+    width: 40px;
+}
+
+.social-links{
+    text-decoration: none; /* Tirar o underline em links de sites*/
+}
+
+.instagram{
+    margin: 0 15px;
+}
+
+.jobs-list{
+    list-style: none; /* Para mudar o estilo da lista ou remover (none) */
+    padding-left: 20px;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    color:white;
+    margin-top: 40px;
+    padding: 10px 0;
+}

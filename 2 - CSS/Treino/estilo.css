@@ -1,0 +1,72 @@
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.profile{
+    text-align: center;
+}
+
+.social-icons{
+    width: 40px;
+}
+
+.social-links{
+    text-decoration: none;
+}
+
+.instagram{
+    margin: 0 15px;
+}
+
+body{
+    background: #93aaad;
+    color: black;
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+}
+
+.foto-principal{
+    width: 200px;
+    border:2px solid #FFFFFF;
+    border-radius: 50%;
+    margin: 30px 30px 0 30px;
+    box-shadow: 0 0 10px #000000;
+}
+
+h1{
+    margin-top: 10px;
+    margin-bottom: 0;
+    letter-spacing: -2px;
+    font-size: 35px;
+    font-family: 'Russo One', sans-serif;
+}
+
+h2{
+    margin-top: 0;
+    font-style: italic;
+    color: #f3f3f3;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+
+h4{
+    margin-bottom: 5px;
+}
+
+p{
+    line-height: 25px;
+}
+
+.jobs-list{
+    list-style: none;
+    padding-left: 20px;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    padding: 10px 0
+}

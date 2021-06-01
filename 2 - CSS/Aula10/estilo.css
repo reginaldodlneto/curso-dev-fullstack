@@ -1,0 +1,49 @@
+body{
+
+    background: #dfdfdf;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(34, 34, 34)
+}
+
+.container{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.foto-principal{
+    width: 200px;
+    border: 2px solid #FFFFFF; /* shorthand */
+    border-radius: 50%;
+    /*
+    border-width: 5px
+    border-color: black
+    border-style: solid
+    Servem igual ao usado acima
+    */
+
+    margin: 30px;
+    /*
+    margin-top: 30px;
+    margin-bottom: 100px;
+    margin-left: 500px;
+    */
+    
+    /* padding: 10px; Espaçamento interno, dentro da foto */
+
+    box-shadow: 0px 0px 10px #959595;
+}
+
+h1{
+    margin-bottom: 0;
+    letter-spacing: -2px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 35px;
+}  
+
+h2{
+    margin-top: 0;
+    font-style: italic;
+    color: rgb(113 110 110);
+    font-weight: 100;
+    letter-spacing: -1px;
+}
