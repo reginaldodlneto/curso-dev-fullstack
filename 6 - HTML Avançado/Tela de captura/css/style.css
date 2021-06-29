@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/background.png);
+    font-family: 'Lato', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin: 110px 450px;
+    align-content: center;
+}
+
+.logo {
+    text-align: center;
+    
+}
+
+.logo img {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    margin: 20px 0 8px 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    
+}
+
+h2 {
+    margin-bottom: 35px;
+}
+
+h3 {
+    margin-bottom: 15px;
+}
+
+.dados ul li {
+    text-decoration: none;
+    list-style: none;
+}
+
+.dados ul li input {
+    width: 100%;
+    padding: 8px;
+    margin: 3px;
+    border: 3px solid white;
+    border-radius: 1px;
+    
+}
+
+.checkbox{
+    margin-top: 10px;
+}
+   
+.checkbox label {
+    font-family: 'sans-serif', sans-serif;
+    font-size:small;
+    
+}
+
+.button {
+    background-color: rgb(4, 111, 161);
+    width: 100%;
+    color: white;
+    margin-top: 15px;
+    border: 3px solid rgb(4, 111, 161);
+    border-radius: 3px;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    
+}
+
+button:hover{
+    background-color: rgb(1, 76, 110);
+}

@@ -1,0 +1,37 @@
+.exemplo{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+
+.exemplo1 p.red { /* COmbinadores */
+    color: red;
+
+}
+
+.margin{
+    margin: 50px;
+}
+
+h1, h2, h3{
+    color: blue;
+}
+
+
+
+
+.exemplo2 > p { /* Apenas aplica nos 'filhos' */
+    color: blue;
+}
+
+
+
+.exemplo3 + p {
+    color: red;
+}
+
+.exemplo4 ~ p {
+    color: green;
+}

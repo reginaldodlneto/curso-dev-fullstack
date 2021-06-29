@@ -1,0 +1,25 @@
+body {
+    background-image: url(https://media.gettyimages.com/videos/snow-background-loopable-video-id1074633704?s=640x640);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+ul {
+    background: grey;
+    padding: 20px;
+    opacity: 1;
+}
+
+ul li {
+    display: inline;
+    margin: 20px;
+}
+
+
+/*  Block - Comporta como uma caixa; 
+    inline - Se comporta em linha; 
+    inline-block - Se comporta como caixa, mas deixa itens lado a lado;
+    none - Descoculpa area antes oculpada;
+    visibility: hidden - Deixa a area invisivel porem ocupada;
+    opacity: (0~1) Mexe na opacidade do item, valor vai de 0 a 1;
+*/

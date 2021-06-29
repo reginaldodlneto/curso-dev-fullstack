@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* indica que o tamanho agora levará em conta até a borda -- ou seja, o width será a soma do conteúdo com a borda e o padding. */
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    background-image: url(https://img.freepik.com/free-vector/abstract-blue-geometric-shapes-background_1035-17545.jpg?size=626&ext=jpg&ga=GA1.2.1412099611.1623110400);
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 40px;
+    box-shadow: 0 0 20px #113e61;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex; /* Deixar os conteudos dentro dessa classe lado a lado */
+}
+
+.navbar {
+    width: 26%;
+    background: #658aa7;
+    padding:30px ;
+}
+.navbar ul li  {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+    background: #2f658f;
+    text-align: center;
+}
+
+a {
+    color: #02305d;
+    text-decoration: none;
+    
+}
+.content {
+    width: 74%;
+    background: #567b98;
+    padding: 30px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: grey;
+    text-align: center;
+    padding: 20px 0;
+}

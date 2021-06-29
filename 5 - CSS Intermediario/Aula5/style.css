@@ -1,0 +1,9 @@
+div {
+    width: 200px;
+    height: 200px;
+    background: yellow;
+    /*  overflow: hidden; Esconde tudo que sai pra fora da caixa
+        overflow: scroll; Acrescenta barra de rolagem
+        overflow-x: hidden; Esconde barra de rolagem no eixo x (pode ser no Y tbm) */
+    overflow: auto; /* Ajusta automaticamente de acordo com a necessidade */
+}

@@ -1,0 +1,20 @@
+h1{
+    text-shadow: 0 0 20px red;
+}
+
+p{
+    font-size: 30px; /* Tamanho da letra */
+    color: green;
+    text-align: justify; /* Alinhamento do texto */
+    font-weight: bold; /* Tamanho da fonte */
+    font-style: italic; /* Estilo da fonte */
+    text-transform: lowercase; /* Caixa alta ou baixa */
+    text-indent: 50px; /* Tamanho da margem (Indentação) */
+    word-spacing: 20px; /* espaço entre as palavras */
+    line-height: 50px; /* espaço entre as frases */
+}
+
+a {
+    text-decoration: line-through; /* Mudar posição ou tirar linha nos botões de link */
+    letter-spacing: 20px; /* Espaço entre as letras */
+}

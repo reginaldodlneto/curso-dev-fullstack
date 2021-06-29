@@ -1,0 +1,35 @@
+
+::selection{ /* Muda configuração da area selecionada */
+    color: pink;
+    background: black;
+}
+
+p::first-line{ /* Muda configuração da primeira linha do paragrafo */
+    color: orange;
+}
+
+p::first-letter{ /* Muda configuração da primeira letra do paragrafo */
+    color: red;
+    font-size: 50px;
+}
+
+h1::before{
+   /* content:"TESTE" - Para texto... abaixo como incluir imagem */
+   background: url(http://simpleicon.com/wp-content/uploads/rocket.svg);
+   background-size: cover;
+   width: 25px;
+   height: 25px;
+   display:inline-block;
+   content: "";
+   margin-right: 10px;
+}
+
+h1::after{
+    /* content:"TESTE" - Para texto... abaixo como incluir imagem */
+    background: url(http://simpleicon.com/wp-content/uploads/rocket.svg);
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+    display:inline-block;
+    content: "";
+    margin-left: 10px;
